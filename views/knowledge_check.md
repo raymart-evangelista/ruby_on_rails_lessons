@@ -1,5 +1,5 @@
 - How do you make sure a preprocessor runs on your view file?
-  - use Embedded Ruby (ERB) which use <%= %> tags
+  - use the extension `.html.erb`
 
 - What is the difference between <%, <%=. and <%#?
   - <%= displays whatever is returned inside the ERB tags (will be used the most)
@@ -11,10 +11,10 @@
 
 - Why do we use partials?
   - allows code to be more concise and easier to read
-  - lets you reuse certain common patterns
+  - lets you reuse certain common patterns such as headers/footers code
 
 - What is the shortcut for rendering a collection as a series of partials?
-  - you can write it in the index.html.erb file
+  - use `<%= render @collection_name %>`
 
 - How do you dynamically link to another page of your Rails app?
-  - use asset tag helpers
+  - use `<%= link_to "See All Users", users_path %>` instead of `<a href="<%= users_path %>">See All Users</a>`
