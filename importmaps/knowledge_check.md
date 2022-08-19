@@ -4,6 +4,7 @@
 
 - How do you download vendor files using import maps?
   - ./bin/importmap pin <library> --download
+  - use ./bin/importmap unpin <libray> --download to remove a downloaded pin
 
 - How can you preload pinned modules?
   - append `preload: true` to the pin
