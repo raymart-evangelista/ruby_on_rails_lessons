@@ -18,7 +18,7 @@
 # Knowledge Check
 - What two pieces of information will Rails assume by default for associations?
 
-- Which type of association may require the :source option to be specified?
+- Which type of association may require the `:source` option to be specified?
 
 - What is populated automatically when an object is created by an association?
 
