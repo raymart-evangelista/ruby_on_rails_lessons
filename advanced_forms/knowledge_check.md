@@ -15,6 +15,7 @@
   - use `#accepts_nested_attributes_for`
 
 - How do you allow the nested parameters in your controller?
+  - declare the permitted parameters in the controller before passing them to the model
 
 - How can you set up a dropdown or checkbox to delete a record that already exists?
   - make a hidden field in your form (or nested form) that has the same name as your checkboxes or dropdown but only contains the value `""` so that the attribute shows up in `params` hash no matter what
