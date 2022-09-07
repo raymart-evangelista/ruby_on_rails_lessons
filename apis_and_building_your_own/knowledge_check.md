@@ -24,3 +24,4 @@
 
 - What is "Service Oriented Architecture"?
   - The app you build will probably have different services within it so instead of building them all under the same master application, they can be broken down into fully independent pieces and have them talk to each other using internally facing APIs
+  - assuming each major component of the app is independent will make it easier to isolate issues
