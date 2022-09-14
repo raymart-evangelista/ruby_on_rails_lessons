@@ -11,6 +11,7 @@
 
 - How do you make your Stimulus controllers reusable?
   - you can configure the controller with an attribute to specify the CSS class to be used
+  - abstract controllers that can be applied to more than one view
 
 - How do you trigger actions on an event?
   - use `data-action="action->controller#method"`
