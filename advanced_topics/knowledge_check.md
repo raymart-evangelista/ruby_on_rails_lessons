@@ -57,7 +57,16 @@
 
 - What are the five design principles represented by the SOLID acronym?
   - Single responsibility
+    - a module should be responsible to one thing only--a class should focus on a single concern--don't couple two things that change for different reasons at different times
+    - the example given from [wikipedia](https://en.wikipedia.org/wiki/Single-responsibility_principle) says for a module that compiles and prints a report, splitting the compile and report aspects should be done because they are two different responsibilities
   - Open/closed
+    - entity can allow its behavior to be extended without modifying the source code
   - Liskov substitution
+    - an object and a sub-object must be interchangable without breaking the program
+    - in programming specifically, ["if S is a subtype of T, then objects of type T in a program may be replaced with objects of type S without altering any of the desirable properties of that program"](https://en.wikipedia.org/wiki/Liskov_substitution_principle)
   - Interface segregation
+    - no code should be forced to depend on methods it does not use
+    - splits interfaces that are large into smaller specific ones so clients only have to know about methods that are of interest to them
   - Dependency inversion
+    - high level modules shouldn't import anything from low-level modules--both depend on abstractions
+    - abstractions should not depend on detials, details should depend on abstractions
