@@ -19,13 +19,13 @@
   - notice that `resource` is not plural like `resources :flights`
 
 - How do you nest one resource inside another in the routes file?
-  ```
-  {
-    resources :courses do
-      resources :lessons
-    end
-  }
-  ```
+  - ```
+    {
+      resources :courses do
+        resources :lessons
+      end
+    }
+    ```
 
 - When do you use the `#member` method?
 
